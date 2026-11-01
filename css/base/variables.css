@@ -6,17 +6,25 @@
     --background-color-primary: #222429;
     --background-color-secondary: #D9D9D9;
     --background-color-thirdy: #18191C;
-    --backgrount-color-fourty: #0DE366;
-
     --text-color-primary: #FFFFFF;
     --text-color-secondary: #000000;
     --text-color-thirdy: #F0E5D8;
+    --text-color-nature: #8BCF76;
+    --text-color-accent: #F2C66D;
 
     --gradient-blue-right: linear-gradient(-75deg, #4169E1 0%, #24397B 100%);
     --gradient-blue-left: linear-gradient(-75deg, #24397B 0%, #4169E1 100%);
     --gradient-green: linear-gradient(-75deg, #007A33 0%, #00E05E 100%);
     --gradient-white: linear-gradient(to right, #D9D9D9 0%, #737373 100%);
     --gradient-black: linear-gradient(-145deg, #0B0C10 0%, #1F2833 100%);
+    --gradient-hero: linear-gradient(
+      to right,
+      #D9D9D9FF 0%,
+      #A6A6A680 50%,
+      #8C8C8C4D 75%,
+      #80808033 88%,
+      #7373731A 100%
+    );
 
     --shadow-mid: 0 0 1rem 0.5rem rgba(255,255,255, 0.5);
 

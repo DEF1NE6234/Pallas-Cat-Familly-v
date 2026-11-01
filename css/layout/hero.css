@@ -1,0 +1,46 @@
+.hero__container {
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+}
+
+.hero__img {
+    width: 100%;
+    position: relative;
+    aspect-ratio: 2 / 1;
+    background-image: var(--gradient-hero), url("../../img/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero__title {
+    position: absolute;
+    right: var(--space-big);
+    bottom: var(--space-big);
+    color: var(--text-color-thirdy);
+    font-size: clamp(1.125rem,5vw,6rem);
+}
+
+.hero__title-part {
+    font-weight: 800;
+}
+
+.hero__label .hero__title-part {
+    color: var(--text-color-nature);
+}
+
+.hero__content {
+    padding: clamp(var(--space-mid), 4vw, var(--space-big));
+    background-color: var(--background-color-primary);
+}
+
+.hero__label {
+    color: var(--text-color-thirdy);
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+
+.hero__label-highlight {
+    color: var(--text-color-accent);
+    font-weight: 700;
+}
